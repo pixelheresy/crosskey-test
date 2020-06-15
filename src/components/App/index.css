@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App header {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App main {
+  padding: 0 30px 30px;
+  background-color: #666666;
+}
+
+.App button {
+  background-color: #20a8d8;
+  border-color: transparent;
+  color: #fff;
+  display: block;
+  padding: 0.4em 1em;
+  font-size: 0.9em;
+  font-weight: bold;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 1em;
+  margin: 0 .2em;
+}
+
+.App form {
+  display: flex;
+  padding: 1em 0;
+}
+
+.App form input {
+  background-color: #e4e5e6;
+  border-color: transparent;
+  border-width: 0;
+  display: block;
+  flex-grow: 1;
+  font-size: 1.5em;
+  line-height: 2em;
+  padding: 10px;
+}
+
+.App .todo {
+  display: flex;
+}
+
+.App .todo h2 {
+  flex-grow: 1;
+  margin: .5em;
+  font-size: 1.2em;
+}
+
+.App .todo button {
+  opacity: .1;
+  background-color: white;
+  color: black;
+}
+
+.App .todo:hover button {
+  opacity: 1;
+  background-color: #20a8d8;
+  color: white;
+}
+

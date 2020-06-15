@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    [
+      "const-enum",
+      {
+        "transform": "constObject"
+      }
+    ],
+    ["@babel/plugin-transform-typescript"]
+  ]
+}

@@ -1,3 +1,31 @@
+# Crosskey Todo Test App
+
+Hey guys! Hope you have a decent time looking though this. As stated in the
+instructions, I set this up with the stack of my choice, and since it was
+comfortable for me to set and get to building quickly, I used
+a React/Redux/TypeScript stack with a little nudge from `create-react-app` to
+set up the initial `package.json` and some basic utility scripts. I figure this
+is the best way to see how I tackle a project more than what I do what
+a particular tool.
+
+I did incorporate all the specs including the optional pieces, albeit, I do
+feel I would have tuned some debounce into the drag and drop if I wanted to
+spend more time. Likewise, the styles are somewhat basic and I would have used
+more modular style construction as well as preprocessing, so I can template out
+constants, etc.
+
+I got though setting up basic tests for the business logic (and since I used
+TypeScript, it becomes really simple, since I don't have to check structures,
+just output), however, due to the circumstances, I timeboxed myself, so I can
+get this to you sooner. Testing render in React is trivial and since using
+Redux for the majority of the data flow and everything is strict TypeScript,
+I at least covered the most important pieces.
+
+Anyway, hope you enjoy!
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -26,19 +54,3 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
